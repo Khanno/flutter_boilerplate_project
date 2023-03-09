@@ -45,7 +45,7 @@ flavorizr:
   flavors:
     dev:
       app:
-        name: boilerplate - dev"
+        name: "boilerplate - dev"
 
       android:
         applicationId: "com.boilerplate.dev"

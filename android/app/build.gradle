@@ -34,7 +34,7 @@ android {
         dev {
             dimension "flavor-type"
             applicationId "com.boilerplate.dev"
-            resValue "string", "app_name", "boilerplate - dev""
+            resValue "string", "app_name", "boilerplate - dev"
         }
         hom {
             dimension "flavor-type"
