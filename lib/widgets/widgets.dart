@@ -9,7 +9,7 @@ export 'buttons/text_button_widget.dart';
 export 'checkbox/custom_checkbox_widget.dart';
 export 'clipper/inverted_banner_clipper.dart';
 export 'clipper/inverted_circular_clipper.dart';
-export 'date_picker/cuppertino_date_picker_widget.dart';
+export 'date_picker/cupertino_date_picker_widget.dart';
 export 'dropdown/dropdown_input.dart';
 export 'index_counter/index_counter_widget.dart';
 export 'index_counter/index_unit_widget.dart';

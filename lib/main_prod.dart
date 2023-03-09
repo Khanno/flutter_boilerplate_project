@@ -1,5 +1,5 @@
 import 'package:boilerplate/main.dart';
-import 'flavors.dart';
+import 'package:boilerplate/flavors.dart';
 
 void main() {
   F.appFlavor = Flavor.PROD;

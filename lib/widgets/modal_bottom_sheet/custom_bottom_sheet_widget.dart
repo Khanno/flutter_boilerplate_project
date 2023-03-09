@@ -9,7 +9,7 @@ void showCustomModalBottomSheet({required BuildContext context, required Widget 
     shape: RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(SizeStyle.size15),
     ),
-    backgroundColor: Theme.of(context).backgroundColor,
+    backgroundColor: Theme.of(context).colorScheme.background,
     builder: (BuildContext _) {
       return child;
     },

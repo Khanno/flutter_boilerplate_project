@@ -1,7 +1,7 @@
 import 'package:boilerplate/styles/styles.dart';
 import 'package:boilerplate/widgets/widgets.dart';
 import 'package:flutter/material.dart';
-import '../flavors.dart';
+import 'package:boilerplate/flavors.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: SizeStyle.size15),
         child: Column(
-          children: [
+          children: <Widget>[
             const SizedBox(height: SizeStyle.size10),
             Center(
               child: Text(

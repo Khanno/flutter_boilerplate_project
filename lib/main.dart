@@ -2,8 +2,8 @@ import 'package:boilerplate/styles/styles.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-import 'flavors.dart';
-import 'pages/home.dart';
+import 'package:boilerplate/flavors.dart';
+import 'package:boilerplate/pages/home.dart';
 
 void setupApp() {
   //TODO: Setup your services here before the runApp function
@@ -30,15 +30,15 @@ class MyApp extends StatelessWidget {
   }) =>
       show
           ? Banner(
-        child: child,
         location: BannerLocation.topStart,
         message: F.name,
         color: Colors.green.withOpacity(0.6),
-        textStyle: TextStyle(
+        textStyle: const TextStyle(
             fontWeight: FontWeight.w700,
             fontSize: 12.0,
             letterSpacing: 1.0),
         textDirection: TextDirection.ltr,
+        child: child,
       )
           : Container(
         child: child,

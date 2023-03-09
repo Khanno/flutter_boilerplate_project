@@ -13,7 +13,7 @@ class CustomFabWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return FloatingActionButton(
       backgroundColor: Theme.of(context).colorScheme.secondary,
-      onPressed: () => Navigator.pushNamed(context, route, arguments: {'context': context}),
+      onPressed: () => Navigator.pushNamed(context, route, arguments: <String, dynamic> {'context': context}),
       child: const Center(
           child: Icon(
         Icons.add,

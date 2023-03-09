@@ -21,12 +21,12 @@ class CuppertinoDatePickerWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: [
+      children: <Widget> [
         Padding(
           padding: const EdgeInsets.symmetric(vertical: SizeStyle.size15 + 2),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.end,
-            children: [
+            children: <Widget>[
               GestureDetector(
                 onTap: () {
                   Navigator.pop(context);
