@@ -1,25 +1,24 @@
+import 'package:boilerplate/styles/styles.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'flavors.dart';
-import 'pages/my_home_page.dart';
+import 'pages/home.dart';
 
 void setupApp() {
   //TODO: Setup your services here before the runApp function
 
-  runApp(App());
+  runApp(MyApp());
 }
 
-class App extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: F.title,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: customThemeData(),
       home: _flavorBanner(
-        child: MyHomePage(),
+        child: Home(),
         show: kDebugMode,
       ),
     );

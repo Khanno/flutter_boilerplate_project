@@ -1,8 +1,7 @@
-import 'package:flutter/material.dart';
-import 'app.dart';
+import 'package:boilerplate/main.dart';
 import 'flavors.dart';
 
 void main() {
   F.appFlavor = Flavor.DEV;
-  runApp(App());
+  setupApp();
 }
