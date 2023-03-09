@@ -1,5 +1,5 @@
 name: boilerplate
-description: A new Flutter project.
+description: A boilerplate project to make easier to setup a new project.
 
 publish_to: "none"
 
@@ -17,7 +17,9 @@ dependencies:
   dio: ^5.0.1
   flutter_bloc: ^8.1.2
   flutter_flavorizr: ^2.1.5
-  flutter_svg: ^1.1.6
+  flutter_launcher_icons: ^0.11.0
+  flutter_native_splash: ^2.2.16
+  flutter_svg: ^2.0.2
   fluttertoast: ^8.2.1
   get: ^4.6.5
   google_fonts: ^4.0.3
@@ -26,6 +28,8 @@ dependencies:
   intl: ^0.18.0
   local_auth: ^2.1.6
   path_provider: ^2.0.13
+  permission_handler: ^10.2.0
+  share_plus: ^6.3.1
   url_launcher: ^6.1.10
 
 dev_dependencies:
@@ -36,3 +40,35 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+flavorizr:
+  flavors:
+    dev:
+      app:
+        name: boilerplate - dev"
+
+      android:
+        applicationId: "com.boilerplate.dev"
+
+      ios:
+        bundleId: "com.boilerplate.dev"
+
+    hom:
+      app:
+        name: "boilerplate - hom"
+
+      android:
+        applicationId: "com.boilerplate.hom"
+
+      ios:
+        bundleId: "com.boilerplate.hom"
+
+    prod:
+      app:
+        name: "boilerplate - prod"
+
+      android:
+        applicationId: "com.boilerplate"
+
+      ios:
+        bundleId: "com.boilerplate"

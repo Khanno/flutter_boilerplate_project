@@ -4,12 +4,6 @@ import 'package:flutter/material.dart';
 import 'flavors.dart';
 import 'pages/my_home_page.dart';
 
-void setupApp() {
-  //TODO: Setup your services here before the runApp function
-
-  runApp(App());
-}
-
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
