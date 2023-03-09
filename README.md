@@ -7,7 +7,7 @@ This project contains some of the most used packages and custom widgets to make 
 There are two main state management packages in the pubspec file. 
 Flutter BloC and Get. Be sure to delete the one you don't need, or both if you're going to use another one.
 
-For local storage, there is Hive and the and Crypto working together to make the storage safe. The path_provider package is also available.
+For local storage, there is Hive and Crypto working together to make the storage safe. The path_provider package is also available.
 
 Dio is available for http request.
 
